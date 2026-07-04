@@ -1,0 +1,8 @@
+<p>child works!</p>
+{{childData}}
+
+<input type="text" [(ngModel)]="childInput"   (change)="sendToParent()" placeholder="Enter data for parent component">
+
+{{mytotalBill}}
+
+<button (click)="callService()">Call Service</button>

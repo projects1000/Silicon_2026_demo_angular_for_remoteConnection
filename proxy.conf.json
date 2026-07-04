@@ -1,0 +1,8 @@
+{
+  "/home": {
+    "target": "https://siliconpracticebactch2026backend-production.up.railway.app",
+    "secure": true,
+    "changeOrigin": true,
+    "logLevel": "debug"
+  }
+}

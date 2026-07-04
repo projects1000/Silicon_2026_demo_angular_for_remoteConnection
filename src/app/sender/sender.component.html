@@ -1,0 +1,20 @@
+<p>sender works!</p>
+
+
+<input type="text" [(ngModel)]="message" placeholder="Enter data for sender">
+
+<button (click)="send()">Send</button>
+ 
+ <hr>
+ <button (click)="callWelcome()">Call Welcome API</button>
+
+ <div *ngIf="welcomeText" style="margin-top:8px">Response: {{ welcomeText }}</div>
+
+<hr>
+<div>
+	<h4>Save Address</h4>
+	<input type="text" [(ngModel)]="addressName" placeholder="Name" style="margin-right:8px">
+	<input type="text" [(ngModel)]="addressText" placeholder="Address" style="margin-right:8px">
+	<button (click)="saveAddress()">Save</button>
+	<div *ngIf="saveResponse" style="margin-top:8px">Save response: {{ saveResponse }}</div>
+</div>
