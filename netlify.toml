@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build -- --configuration=production"
+  publish = "dist/demo-test"
+
+# If you want to override the API URL at build time, set an env var named
+# `PROD_API_URL` in Netlify and update `src/environments/environment.prod.ts`
+# to use it before building. The current file uses the Railway URL directly.

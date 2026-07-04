@@ -1,6 +1,6 @@
 {
   "/home": {
-    "target": "https://siliconpracticebactch2026backend-production.up.railway.app",
+    "target": "https://siliconpracticebactch-2026backend.onrender.com",
     "secure": true,
     "changeOrigin": true,
     "logLevel": "debug"
